@@ -23,6 +23,17 @@ import AutoComplete from 'components/AutoComplete';
 
 ...
 
+let items = [];
+
+for (let index = 1; index <= 20; index++) {
+  items.push({
+    value: `some value ${index}`,
+    jsx: <div>Item <strong>strong!</strong> {index}</div>
+  });
+}
+
+...
+
 <AutoComplete
   items={items}
   onSelected={(selected) => console.log('selected: ', selected)}
