@@ -34,7 +34,7 @@ import AutoComplete from 'components/AutoComplete';
 ```
 
 ### It has dependency on:
-1. `npm i prop-types --save`
+1. `npm i prop-types --save` From official ReactJs docs: React.PropTypes is deprecated [link](https://facebook.github.io/react/docs/typechecking-with-proptypes.html)
 2. `npm i react --save`
 3. `npm i @blueprintjs/core --save`
 
